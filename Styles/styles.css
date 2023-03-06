@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/thumb-1920-761635.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family:Segoe UI;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+
+.cheebux{
+    margin: 10px 2.5em;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cheebux span{
+    color: teal;
+}
+    
+
+.list_elements{
+    margin: 10px 45px;
+}
+
+.list_elements ul{
+    display: flex;
+}
+
+.list_elements ul li{
+    margin: 2.5em;
+    list-style-type: none;
+}
+
+.list_elements ul li a{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/*Add animations and hover effects to the list elements*/
+.list_elements ul li a:hover{
+    color: teal;
+}
+
+.main .main_txt{
+    margin: 35px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}  
+
+.main .main_txt span{
+    color: teal;
+    font-style: italic;
+}
+
+.main{
+    margin:2.5em;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    font-size: 40px;
+
+}
+
+.main .partners{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -95px;
+    letter-spacing: 2px;
+}
+
+.list_of_partners{
+    position: relative;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.list_of_partners .box{
+    background-color: teal;
+    width: 25%;
+    padding: 1em 2em;
+    opacity: 0.8;
+    border-radius: 1em;
+    height: 150px;
+}
+
+.list_of_partners .box ul li{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn_txt{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
